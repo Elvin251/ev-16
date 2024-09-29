@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    
+    list-style-type: none;
+    justify-content: flex-start;
+    padding: 50px;
+    background-color: white;
+     margin-right: 100px;
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  width: 100vw;
+}
+li{
+    color:rgb(86, 86, 86) ;
+    
+    margin-left: 50px;
+   font-weight: bold;
+
+}
+li:hover{
+    color: blueviolet;
+}
+
+h2{
+    color: blueviolet;
+    display: inline;
+ margin-right: 150px;
+}
+.bos{
+    margin-top: 120px;
+    background-image: url(./axrafon\ şəkli.jpg);
+    background-size: cover;
+    height: 85vh;
+
+}
+h1,p,button{
+    color: white;
+    text-align: center;
+}
+.tur{
+    padding-top:50px ;
+    padding-bottom:500px ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    
+}
+button{
+    background-color: blueviolet;
+    padding: 20px;
+    border: none;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: rgb(95, 33, 154);
+}
+span{
+    color: blueviolet;
+}
+#small{
+
+padding-top: 250px;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    margin-top: 20px;
+}
+body{
+    background-color: blue;
+}
